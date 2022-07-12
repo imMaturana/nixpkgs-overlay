@@ -1,7 +1,7 @@
-{ pkgs ? import <nixpkgs> { } }:
+self: super:
 
 {
-  lswt = pkgs.callPackage ./pkgs/lswt { };
+  lswt = super.callPackage ./pkgs/lswt { };
 
-  stacktile = pkgs.callPackage ./pkgs/stacktile { };
+  stacktile = super.callPackage ./pkgs/stacktile { };
 }
