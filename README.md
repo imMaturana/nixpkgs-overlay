@@ -1,1 +1,1 @@
-# nur-packages
+# nixpkgs-overlay
